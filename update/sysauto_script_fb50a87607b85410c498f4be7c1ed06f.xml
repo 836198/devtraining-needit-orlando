@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sysauto_script">
+    <sysauto_script action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <business_calendar/>
+        <condition/>
+        <conditional>false</conditional>
+        <entered_time/>
+        <name>Interaction state change for walk-up</name>
+        <run_as display_value="sweta singh">79fc08f107201010c498f4be7c1ed046</run_as>
+        <run_as_tz/>
+        <run_dayofmonth>1</run_dayofmonth>
+        <run_dayofweek/>
+        <run_period/>
+        <run_start>2020-05-20 08:28:00</run_start>
+        <run_time/>
+        <run_type>once</run_type>
+        <script><![CDATA[new sn_walkup.AutoTriggerFacade().getAptScheduleScript( 'bb50a87607b85410c498f4be7c1ed06e',  '120');]]></script>
+        <sys_class_name>sysauto_script</sys_class_name>
+        <sys_created_by>sweta</sys_created_by>
+        <sys_created_on>2020-05-19 05:21:26</sys_created_on>
+        <sys_id>fb50a87607b85410c498f4be7c1ed06f</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Interaction state change for walk-up</sys_name>
+        <sys_package display_value="NeedIt" source="x_58872_needit">6ead8e780f603200cd674f8ce1050ed1</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="NeedIt">6ead8e780f603200cd674f8ce1050ed1</sys_scope>
+        <sys_update_name>sysauto_script_fb50a87607b85410c498f4be7c1ed06f</sys_update_name>
+        <sys_updated_by>sweta</sys_updated_by>
+        <sys_updated_on>2020-05-19 05:21:26</sys_updated_on>
+        <time_zone/>
+        <upgrade_safe>false</upgrade_safe>
+    </sysauto_script>
+</record_update>
